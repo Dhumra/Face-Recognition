@@ -1,0 +1,125 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* ----------------------------navbar---------------------- */
+.menu-bar{
+    background-color: #371B58;
+}
+.navbar-brand img{
+    width:10%;
+    border-radius:10px;
+}
+
+.navbar ul li a{
+    font-size: 20px;
+    margin: 0 7px;
+
+}
+.nav-link{
+    color:#fff;
+}
+.nav-link:hover{
+    color:#FFCD38;
+}
+/* ----------------------Landing Page---------------------- */
+
+.home-page{
+    background-color:rgb(202, 160, 240);
+    position:relative;
+}
+.landing-page{
+    width:100%;
+    height:90vh;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.landing-page .information{
+flex-basis:48%;
+}
+.information h2{
+    font-size:60px;
+    padding-bottom:20px;
+    color:#6b0966;
+}
+.information p{
+    color:#1d1d1d;
+}
+.des-logo img{
+    width:40%;
+    padding-left:50px;
+    position:absolute;
+    top:60px;
+    right:100px;  
+}
+/* ------------Features----------------------------------------------- */
+#carouselExampleControls{
+    height:70vh;
+    width:100%;
+    background-color:#371B58;
+    color:#fff;
+    transition:0.6s ease;
+}
+.price-text{
+    width:70%;
+    margin:auto;
+    padding-top:50px;
+    font-size:3.2rem;
+    justify-content:center; 
+}
+.space{
+    padding-top:150px;
+}
+.feature-title{
+    background-color:#371B58;
+    margin-bottom:0;
+    padding:25px 0 20px;
+    text-align:center;
+    font-size:3.5rem;
+    color:#FFCD38;
+}
+.carousel-control-next,
+.carousel-control-prev{
+    height:20vh;
+    width:100px;
+    margin:auto 0;
+    background-color:transparent;
+    color:antiquewhite;
+    outline:none;
+    border:none;
+}
+
+
+/* ------------------footer-------------------------------------------- */
+
+#scrollspyfooter{
+    text-align:center;
+    padding:30px 20px;
+    height:30vh;
+}
+#scrollspyfooter h4{
+    color:rgb(202, 160, 240);
+    margin-bottom:10px;
+}
+#scrollspyfooter p{
+    color:rgb(76, 16, 132);
+}
+.links i{
+    padding:10px 6px;
+    margin-bottom:20px;
+}
+.links i:hover{
+    color:rgb(202, 160, 240);
+}
+.ending{
+    margin-bottom:2px;
+}
+
+
+
+
