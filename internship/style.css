@@ -29,7 +29,7 @@ body{
 /* ----------------------Landing Page---------------------- */
 
 .home-page{
-    background-color:rgb(202, 160, 240);
+    background-color:rgb(228, 204, 249);
     position:relative;
 }
 .landing-page{
@@ -94,6 +94,93 @@ flex-basis:48%;
     border:none;
 }
 
+
+/* ------------------Face Camera--------------------------------------- */
+
+.face-biometry{
+    width:100%;
+    height:110vh;
+    background-color:rgb(228, 204, 249);
+    text-align:center;
+}
+.face-biometry h2{
+    padding-top: 30px;
+    font-size:3.5rem;
+    color:#371B58;
+}
+.face-cam{
+    height:70vh;
+}
+.btn{
+    width:250px;
+    background-color:#6b0966;
+    color:#fff;
+    outline:none;
+    border:none;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    margin:0 auto;
+    margin-top:20px;
+    padding: 10px ;
+}
+.btn:hover{
+    background-color:#371B58;
+    color:#FFCD38;
+}
+/* -----------------CVS Records -----------------------------------------*/
+.records{
+    width:100%;
+    height:40vh;
+    background-color:#4f277d;
+    text-align: center;
+    color:#fff;
+    padding-top:20vh;
+    
+
+
+}
+.records h2{
+    font-size:3.5rem;
+}
+.cvs-records{
+    background-color:rgb(228, 204, 249);
+    height:max-content;
+}
+body > div.cvs-records > button{
+    margin-top:0;
+}
+
+#btn1{
+    width:250px;
+    background-color:#6b0966;
+    color:#fff;
+    outline:none;
+    border:none;
+    margin:20px 640px 20px;
+    
+}
+
+/* ------------Enroll Form----------------------------------------------- */
+ .enroll{
+    background-color:rgb(228, 204, 249);
+    height:max-content; 
+ }
+ .enroll-now{
+    padding:10px 10px 10px 580px;
+    display:flex;
+ }
+ .enroll-now .text-en{
+    padding:10px 30px;
+ }
+ .hero-btn{
+  border-radius:0;
+  width:110px; 
+ }
+ body > div.enroll > form > button{
+    margin-top:0;
+    margin-left:0;
+ }
 
 /* ------------------footer-------------------------------------------- */
 
